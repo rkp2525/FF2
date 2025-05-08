@@ -19,7 +19,7 @@ print(1 + 1)
 # variables
 ###########
 
-pts_per_passing_td = 4
+pts_per_passing_td = 5
 
 pts_per_passing_td
 3*pts_per_passing_td
@@ -98,19 +98,18 @@ message
 #################
 
 # lists
-my_roster_list = ['tom brady', 'adrian peterson', 'antonio brown']
-
+my_roster_list = ['brock purdy', 'christian mccaffrey', 'george kittle', "ja'uan jennings"]
 my_roster_list[0]
 my_roster_list[0:2]
 my_roster_list[-2:]
 
 # dicts
-my_roster_dict = {'qb': 'tom brady',
-                  'rb1': 'adrian peterson',
-                  'wr1': 'antonio brown'}
+my_roster_dict = {'qb': 'brock purdy',
+                  'rb1': 'christian mccaffrey',
+                  'wr1': "ja'uan jennings"}
 
 my_roster_dict['qb']
-my_roster_dict['k'] = 'mason crosby'
+my_roster_dict['k'] = 'jake moody'
 my_roster_dict
 
 # unpacking
